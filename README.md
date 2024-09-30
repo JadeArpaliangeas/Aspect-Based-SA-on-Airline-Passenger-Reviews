@@ -29,7 +29,7 @@ Despite some limitations in the aspect extraction process, the study highlights 
 ## Repository Contents
 
 - **Report Paper**:  
-  [Aspect-Based Sentiment Analysis Methods for Analyzing Airline Passenger Reviews Report.pdf](link-to-your-report)  
+  [Aspect-Based Sentiment Analysis Methods for Analyzing Airline Passenger Reviews Report.pdf](https://github.com/JadeArpaliangeas/Aspect-Based-SA-on-Airline-Passenger-Reviews/blob/dbb48cb7d18f5409c49707d8cf3306bcfd0fb7e6/Aspect-Based%20Sentiment%20Analysis%20Methods%20for%20Analyzing%20Airline%20Passenger%20Reviews%20Report.pdf)  
   Describes all the study and results.
 
 - **PowerPoint Slides**:  
