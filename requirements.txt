@@ -1,0 +1,20 @@
+To run the notebooks and Python scripts, ensure you have the necessary dependencies installed:
+
+Python 3.9
+Jupyter Notebook
+
+Libraries:
+numpy
+matplotlib
+pandas
+re
+scikit-learn
+vaderSentiment
+spacy
+nltk
+tqdm
+torch (PyTorch)
+torchmetrics
+multiprocessing (part of the Python standard library)
+transformers
+typing (part of the Python standard library)
