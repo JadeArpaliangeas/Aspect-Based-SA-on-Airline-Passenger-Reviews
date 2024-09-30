@@ -1,45 +1,69 @@
-# Aspect Based-SA-on-Airline-Passenger-Reviews
+# Aspect-Based Sentiment Analysis for Analyzing Airline Passenger Reviews
 
-## Objective and results
-This study aims to conduct Aspect-Based Sentiment Analysis (ABSA) on airline passengers' reviews to detect and assess the sentiment polarity associated with various service aspects, such as food and beverages quality, staff sympathy, inflight entertainment, and seat comfort. We scraped over 110,000 reviews from the Skytrax website, focusing on major airlines worldwide. Our methodology involves a two-step approach: Aspect Extraction and Aspect Sentiment Classification. Initially, we tested several models, including LDA, BERTopic, and Lemma Keywords Detection, for aspect extraction, ultimately selecting the Lemma Keywords Detection method as the basis for sentiment analysis. In the sentiment classification phase, both supervised (BERT-based models) and unsupervised models (e.g., VADER) were evaluated. While the baseline model performed well across the dataset, supervised models showed significant improvements, especially on reviews with mixed sentiment (bipolar data). Our final models were applied to assess customer satisfaction across five key service aspects for major US airlines, demonstrating the potential of our approach to provide actionable insights into airline service quality. Despite some limitations in the aspect extraction process, the study highlights the effectiveness of the developed pipeline in performing ABSA on airline reviews.
+<img src="https://media.giphy.com/media/p8HvKv9rCWQ3k3Shzb/giphy.gif?cid=ecf05e474ffyw041n6ie0eccy21fys86hxb4wqdmibl03cq8&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="200">
+
+## Project Overview
+
+### Objectives
+This study aims to conduct Aspect-Based Sentiment Analysis (ABSA) on airline passenger reviews to detect and assess the sentiment polarity associated with various service aspects, such as:
+- Food and beverages quality
+- Staff sympathy
+- Inflight entertainment
+- Seat comfort
+
+We scraped over **110,000 reviews** from the Skytrax website, focusing on major airlines worldwide.
+
+Our methodology involves a two-step approach:
+1. **Aspect Extraction**
+2. **Aspect Sentiment Classification**
+
+Initially, we tested several models, including LDA, BERTopic, and Lemma Keywords Detection for aspect extraction, ultimately selecting the Lemma Keywords Detection method as the basis for sentiment analysis. In the sentiment classification phase, both supervised (BERT-based models) and unsupervised models (e.g., VADER) were evaluated and compared to a baseline pre-trained model for ABSA.
+
+### Results
+While the baseline model performed well across the dataset, supervised models showed significant improvements, especially on reviews with mixed sentiment (bipolar data). Our final models were applied to assess customer satisfaction across five key service aspects for major US airlines, demonstrating the potential of our approach to provide actionable insights into airline service quality. 
+
+Despite some limitations in the aspect extraction process, the study highlights the effectiveness of the developed pipeline in performing ABSA on airline reviews.
 
 <img src="https://media.giphy.com/media/NqhohLDKCaixsl2Ygb/giphy.gif" width="200">
-<img src="https://media.giphy.com/media/3o6nV8OYdUhiuKja1i/giphy.gif?cid=ecf05e47dj7xh7hw8btbg0oc9ivfmup9xsgwhd7jy37xw2dk&ep=v1_gifs_related&rid=giphy.gif&ct=g" width="200">
 
 ## Repository Contents
 
-- Thesis Report Paper
-Aspect-Based Sentiment Analysis Methods for Analyzing Airline Passenger Reviews Report.pdf
-Describes all the study and the results
+- **Report Paper**:  
+  [Aspect-Based Sentiment Analysis Methods for Analyzing Airline Passenger Reviews Report.pdf](link-to-your-report)  
+  Describes all the study and results.
 
-- Powerpoint Slides for oral presentation
-M2 thesis defense presentation.pptx
+- **PowerPoint Slides**:  
+  [Presentation Aspect-Based Sentiment Analysis Methods for Analyzing Airline Passenger Reviews.pptx](link-to-your-presentation)  
+  Slides for oral presentation.
+
+- **Notebooks Folder**:  
+  This folder contains all the Jupyter Notebooks used for the project, exploring different stages of data processing, model training, and evaluation.
+  - **File**: [Notebooks_descriptions.xlsx](link-to-your-notebooks-descriptions)  
+    Contains concise descriptions of the notebooks and their purpose, along with related functions to import from `commented_code_M2_thesis.py`.
+
+- **Source Code (src)**:  
+  - **File**: `commented_code_M2_thesis.py`  
+    Compiles the most useful functions across the Notebooks.
+  
+  - **File**: `text_processing1.py`  
+    Contains the `lemmatize_sentences` function (using parallel computing).
+  
+- **Requirements**:  
+  - **File**: [requirements.txt](link-to-your-requirements)  
+    Lists all necessary Python packages required to run the project.
+
+### Requirements
+- Python 3.9, Jupyter Notebook
+- To train the deep learning models on PyTorch, the following GPU was used: **NVIDIA GeForce RTX 3050**, associated with **CUDA version 11.8**.
+- See `requirements.txt` for more library requirements.
+
+### Data Source
+The up-to-date Skytrax database is available at the following link:  
+[Skytrax Airline Reviews](https://www.airlinequality.com/review-pages/a-z-airline-reviews/)
+
+### Contact
+For any questions or suggestions, please reach out to:  
+- Jade Arpaliangeas  
+- **Email**: jade.arpaliangeas@gmail.com
 
 
-- Notebooks Folder
-This folder contains all the Jupyter Notebooks used for the project.
-Each notebook explores different stages of data processing, model training, and evaluation.
-+ Notebooks_descriptions.xlsx for concise descriptions of the notebooks and their purpose, and related functions to import from commented_code_M2_thesis.
-
-
-- Python Scripts
-commented_code_M2_thesis.py compiles most useful functions across Notebooks
-text_processing1.py for function lemmatize_sentences (using parallel computing)
-
-
-
-
-
-
-## Materials:
-We worked on python 3.9 in Anaconda Jupyter Notebook. The following libraries were used in addition to the classical python libraries: Librosa, os, tensorflow, keras, scipy, soundfile, tqdm (to monitor progression of the code completion).
-
-The up-to-date skytrax database is available following the link below: 
-https://www.airlinequality.com/review-pages/a-z-airline-reviews/
-
-Hardware requirement:
-To train the deep learning models on PyTorch, the following GPU was used: NVIDIA GeForce RTX 3050, associated with cuda version 11.8 
-
-![image](https://github.com/JadeArpaliangeas/Speech-Emotion-Recognition-CNN/assets/149436763/f37a04d3-81ba-4503-ad73-5e6a080b55e6)
-
-## Conclusion: 
