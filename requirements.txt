@@ -18,3 +18,6 @@ torchmetrics
 multiprocessing (part of the Python standard library)
 transformers
 typing (part of the Python standard library)
+
+Hardware requirement:
+To train the deep learning models on PyTorch, the following GPU was used: NVIDIA GeForce RTX 3050, associated with cuda version 11.8 
