@@ -33,12 +33,13 @@ Despite some limitations in the aspect extraction process, the study highlights 
   Describes all the study and results.
 
 - **PowerPoint Slides**:  
-  [Presentation Aspect-Based Sentiment Analysis Methods for Analyzing Airline Passenger Reviews.pptx](link-to-your-presentation)  
+  [Presentation Aspect-Based Sentiment Analysis Methods for Analyzing Airline Passenger Reviews.pptx](https://github.com/JadeArpaliangeas/Aspect-Based-SA-on-Airline-Passenger-Reviews/blob/dbb48cb7d18f5409c49707d8cf3306bcfd0fb7e6/Presentation%20ABSA%20for%20Airline%20Passenger%20reviews.pptx)  
   Slides for oral presentation.
 
 - **Notebooks Folder**:  
   This folder contains all the Jupyter Notebooks used for the project, exploring different stages of data processing, model training, and evaluation.
-  - **File**: [Notebooks_descriptions.xlsx](link-to-your-notebooks-descriptions)  
+  - **File**: [Notebooks_descriptions.xlsx]([link-to-your-notebooks-descriptions](https://github.com/JadeArpaliangeas/Aspect-Based-SA-on-Airline-Passenger-Reviews/blob/dbb48cb7d18f5409c49707d8cf3306bcfd0fb7e6/Notebooks_descriptions.xlsx
+))  
     Contains concise descriptions of the notebooks and their purpose, along with related functions to import from `commented_code_M2_thesis.py`.
 
 - **Source Code (src)**:  
@@ -49,7 +50,7 @@ Despite some limitations in the aspect extraction process, the study highlights 
     Contains the `lemmatize_sentences` function (using parallel computing).
   
 - **Requirements**:  
-  - **File**: [requirements.txt](link-to-your-requirements)  
+  - **File**: [requirements.txt](https://github.com/JadeArpaliangeas/Aspect-Based-SA-on-Airline-Passenger-Reviews/blob/dbb48cb7d18f5409c49707d8cf3306bcfd0fb7e6/requirements.txt)  
     Lists all necessary Python packages required to run the project.
 
 ### Requirements
